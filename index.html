@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juegos Educativos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Juegos Educativos</h1>
+        <div id="menu">
+            <h2>Selecciona el Grado</h2>
+            <button onclick="showLevels(1)">1° y 2° Grado</button>
+            <button onclick="showLevels(2)">3° y 4° Grado</button>
+            <button onclick="showLevels(3)">5° y 6° Grado</button>
+        </div>
+
+        <!-- Contenedor de los ejercicios por nivel -->
+        <div id="level1" class="levels hidden">
+            <h2>1° y 2° Grado</h2>
+            <button onclick="startGame('Comparación de Números')">Comparación de Números</button>
+            <button onclick="backToMenu()">Volver</button>
+        </div>
+
+        <div id="game" class="hidden">
+            <h2 id="exercise-title"></h2>
+            <div id="question-container" class="hidden">
+                <p id="question-text"></p>
+                <input type="text" id="answer-input" />
+            </div>
+            <div id="navigation">
+                <button onclick="submitAnswer()">Enviar Respuesta</button>
+                <button onclick="nextQuestion()">Siguiente Pregunta</button>
+            </div>
+            <div id="result" class="hidden"></div>
+            <button onclick="backToLevels()">Volver a los Ejercicios</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

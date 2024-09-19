@@ -1,11 +1,26 @@
+/* Fondo animado con gradiente */
+@keyframes gradientBackground {
+    0% {
+        background: linear-gradient(45deg, #61dfff, #4690cc);
+    }
+    50% {
+        background: linear-gradient(45deg, #a5d4ba, #30829b);
+    }
+    100% {
+        background: linear-gradient(45deg, #61d2ff, #8bb48f);
+    }
+}
+
 body {
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #e0f7fa;
     margin: 0;
+    background: linear-gradient(45deg, #61e7ff, #a5d4b8);
+    background-size: 400% 400%;
+    animation: gradientBackground 10s ease infinite;
 }
 
 .game-container {
@@ -20,6 +35,15 @@ body {
 
 h1 {
     color: #00796b;
+}
+
+/* Estilo para la imagen principal */
+.main-image {
+    width: 100%;
+    max-width: 400px; /* Tamaño máximo de la imagen */
+    height: auto;
+    margin: 20px 0;
+    border-radius: 10px; /* Bordes redondeados */
 }
 
 button {

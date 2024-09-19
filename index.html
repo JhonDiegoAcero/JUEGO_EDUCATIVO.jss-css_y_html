@@ -10,20 +10,47 @@
 <body>
     <div class="game-container">
         <h1>Juegos Educativos</h1>
+        <img src="img.principal.avif" alt="Imagen principal" class="main-image">
+
         <div id="menu">
             <h2>Selecciona el Grado</h2>
-            <button onclick="showLevels(1)">1° y 2° Grado</button>
-            <button onclick="showLevels(2)">3° y 4° Grado</button>
-            <button onclick="showLevels(3)">5° y 6° Grado</button>
+            <button onclick="showGradeSelection(1)">1° y 2° Grado</button>
+            <button onclick="showGradeSelection(2)">3° y 4° Grado</button>
+            <button onclick="showGradeSelection(3)">5° y 6° Grado</button>
         </div>
 
-        <!-- Contenedor de los ejercicios por nivel -->
-        <div id="level1" class="levels hidden">
-            <h2>1° y 2° Grado</h2>
-            <button onclick="startGame('Comparación de Números')">Comparación de Números</button>
+        <!-- Selección de Grado para 1° y 2° -->
+        <div id="gradeSelection1" class="hidden">
+            <h2>Selecciona el Grado</h2>
+            <button onclick="showTopics(1)">Primer Grado</button>
+            <button onclick="showTopics(2)">Segundo Grado</button>
             <button onclick="backToMenu()">Volver</button>
         </div>
 
+        <!-- Selección de Grado para 3° y 4° -->
+        <div id="gradeSelection2" class="hidden">
+            <h2>Selecciona el Grado</h2>
+            <button onclick="showTopics(3)">Tercer Grado</button>
+            <button onclick="showTopics(4)">Cuarto Grado</button>
+            <button onclick="backToMenu()">Volver</button>
+        </div>
+
+        <!-- Selección de Grado para 5° y 6° -->
+        <div id="gradeSelection3" class="hidden">
+            <h2>Selecciona el Grado</h2>
+            <button onclick="showTopics(5)">Quinto Grado</button>
+            <button onclick="showTopics(6)">Sexto Grado</button>
+            <button onclick="backToMenu()">Volver</button>
+        </div>
+
+        <!-- Selección de temas según el grado -->
+        <div id="topics" class="hidden">
+            <h2 id="gradeTitle"></h2>
+            <div id="topicButtons"></div>
+            <button onclick="backToGradeSelection()">Volver</button>
+        </div>
+
+        <!-- Contenedor del juego -->
         <div id="game" class="hidden">
             <h2 id="exercise-title"></h2>
             <div id="question-container" class="hidden">
@@ -35,7 +62,7 @@
                 <button onclick="nextQuestion()">Siguiente Pregunta</button>
             </div>
             <div id="result" class="hidden"></div>
-            <button onclick="backToLevels()">Volver a los Ejercicios</button>
+            <button onclick="backToTopics()">Volver a los Temas</button>
         </div>
     </div>
 

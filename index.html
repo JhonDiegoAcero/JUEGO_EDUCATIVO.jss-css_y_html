@@ -2,70 +2,63 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Juegos Educativos</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <img src="Senati.png" alt="Marca" class="marca">
+    
     <div class="game-container">
         <h1>Juegos Educativos</h1>
         <img src="img.principal.avif" alt="Imagen principal" class="main-image">
 
         <div id="menu">
             <h2>Selecciona el Grado</h2>
-            <button onclick="showGradeSelection(1)">1° y 2° Grado</button>
-            <button onclick="showGradeSelection(2)">3° y 4° Grado</button>
-            <button onclick="showGradeSelection(3)">5° y 6° Grado</button>
-        </div>
-
-        <!-- Selección de Grado para 1° y 2° -->
-        <div id="gradeSelection1" class="hidden">
-            <h2>Selecciona el Grado</h2>
-            <button onclick="showTopics(1)">Primer Grado</button>
-            <button onclick="showTopics(2)">Segundo Grado</button>
-            <button onclick="backToMenu()">Volver</button>
-        </div>
-
-        <!-- Selección de Grado para 3° y 4° -->
-        <div id="gradeSelection2" class="hidden">
-            <h2>Selecciona el Grado</h2>
-            <button onclick="showTopics(3)">Tercer Grado</button>
-            <button onclick="showTopics(4)">Cuarto Grado</button>
-            <button onclick="backToMenu()">Volver</button>
-        </div>
-
-        <!-- Selección de Grado para 5° y 6° -->
-        <div id="gradeSelection3" class="hidden">
-            <h2>Selecciona el Grado</h2>
-            <button onclick="showTopics(5)">Quinto Grado</button>
-            <button onclick="showTopics(6)">Sexto Grado</button>
-            <button onclick="backToMenu()">Volver</button>
-        </div>
-
-        <!-- Selección de temas según el grado -->
-        <div id="topics" class="hidden">
-            <h2 id="gradeTitle"></h2>
-            <div id="topicButtons"></div>
-            <button onclick="backToGradeSelection()">Volver</button>
-        </div>
-
-        <!-- Contenedor del juego -->
-        <div id="game" class="hidden">
-            <h2 id="exercise-title"></h2>
-            <div id="question-container" class="hidden">
-                <p id="question-text"></p>
-                <input type="text" id="answer-input" />
+            <div class="grade-buttons">
+                <button onclick="showGradeSelection(1)">1° Grado</button>
+                <button onclick="showGradeSelection(2)">2° Grado</button>
+                <button onclick="showGradeSelection(3)">3° Grado</button>
+                <button onclick="showGradeSelection(4)">4° Grado</button>
+                <button onclick="showGradeSelection(5)">5° Grado</button>
+                <button onclick="showGradeSelection(6)">6° Grado</button>
             </div>
+        </div>        
+
+        <!-- Selección de Tema -->
+        <div id="topic-container" class="hidden">
+            <h2>Selecciona el Tema</h2>
+            <ul id="topic-list"></ul>
+            <button onclick="volverAlMenu()">Volver al Menú Principal</button> <!-- Botón para volver al menú principal -->
+        </div>
+
+        <!-- Contenedor de Preguntas -->
+        <div id="question-container" class="hidden">
+            <h2 id="topic-title"></h2>
+
+            <!-- Aquí se mostrará la imagen para Primer Grado -->
+            <img id="grade-image" src="1roGrado.jpg" alt="Imagen de Primer Grado" class="hidden" style="width:200px; height:auto; margin-bottom:20px;">
+
+            <p id="question-text"></p>
+            <input type="text" id="answer-input" placeholder="Escribe tu respuesta">
+            <button onclick="checkAnswer()">Verificar</button>
+            <p id="result"></p>
+            <button onclick="nextQuestion()">Siguiente Pregunta</button>
             <div id="navigation">
-                <button onclick="submitAnswer()">Enviar Respuesta</button>
-                <button onclick="nextQuestion()">Siguiente Pregunta</button>
+                <button onclick="volverAlMenu()">Volver al Menú Principal</button> <!-- Botón para volver al menú principal -->
             </div>
-            <div id="result" class="hidden"></div>
-            <button onclick="backToTopics()">Volver a los Temas</button>
+        </div>
+
+        <!-- Botón para volver al menú de temas tras completar las preguntas -->
+        <div id="end-container" class="hidden">
+            <h2>¡Cuestionario Completado!</h2>
+            <p>Tu puntaje total es: <span id="total-score"></span></p>
+            <button onclick="volverATemas()">Volver al Menú de Temas</button>
+            <button onclick="volverAlMenu()">Volver al Menú Principal</button>
         </div>
     </div>
 
     <script src="script.js"></script>
 </body>
 </html>
+

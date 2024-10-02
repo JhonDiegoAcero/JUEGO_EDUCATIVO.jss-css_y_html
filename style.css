@@ -112,13 +112,21 @@ button:hover {
     color: #00796b;
 }
 
-/* Posicionar la imagen de la marca en la esquina superior derecha */
 .marca {
     position: fixed;
-    top: 50px;
-    left: 50px; /* Si prefieres la esquina superior izquierda, usa left */
-    width: 100px; /* Puedes ajustar el tamaño de la imagen según prefieras */
-    opacity: 0.8; /* Ajusta la opacidad para dar un efecto de marca */
-    z-index: 1000; /* Asegura que esté por encima de otros elementos */
-    
+    top: 10px;  /* Ajusta la distancia desde la parte superior */
+    left: 10px;  /* Cambia a `right` para asegurarte de que se quede en la esquina derecha */
+    width: 80px;  /* Ajusta el tamaño según el dispositivo */
+    opacity: 0.8;  /* Efecto de opacidad */
+    z-index: 1000;  /* Asegura que esté por encima de otros elementos */
 }
+
+@media screen and (max-width: 768px) {
+    /* Para pantallas más pequeñas como tablets y móviles */
+    .marca {
+        top: 5px;   /* Reduce el margen superior en móviles */
+        right: 5px;  /* Ajusta el margen derecho para evitar que se mueva al centro */
+        width: 60px; /* Ajusta el tamaño de la imagen para pantallas pequeñas */
+    }
+}
+

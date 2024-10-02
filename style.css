@@ -21,7 +21,7 @@ body {
 }
 
 h1 {
-    color: #0caf86;
+    color: #11ce9f;
 }
 
 .main-image {
@@ -55,8 +55,8 @@ button {
 }
 
 button:hover {
-    background-color: #004d40;
-    transform: scale(1.05); /* Agrandar un poco al pasar el mouse */
+    background-color: #0c6858;
+    transform: scale(1.05); /* Agrandar un poco al pasar el mouse yes */
 }
 
 
@@ -117,7 +117,8 @@ button:hover {
     position: fixed;
     top: 50px;
     left: 50px; /* Si prefieres la esquina superior izquierda, usa left */
-    width: 150px; /* Puedes ajustar el tamaño de la imagen según prefieras */
+    width: 100px; /* Puedes ajustar el tamaño de la imagen según prefieras */
     opacity: 0.8; /* Ajusta la opacidad para dar un efecto de marca */
     z-index: 1000; /* Asegura que esté por encima de otros elementos */
+    
 }

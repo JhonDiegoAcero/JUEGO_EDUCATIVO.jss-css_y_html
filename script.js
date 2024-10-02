@@ -73,7 +73,7 @@ const temasPorGrado = {
             { 
                 nombre: " ",
                 preguntas: [
-                    { texto: "¿   ?", respuestaCorrecta: " " },
+                    { texto: "¿Que es esto ?", respuestaCorrecta: "nose" },
 
                 ]
             }

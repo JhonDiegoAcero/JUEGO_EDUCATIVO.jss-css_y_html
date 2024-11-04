@@ -102,49 +102,177 @@ const temasPorGrado = {
     3: {
         nombre: "Tercer Grado",
         temas: [
-            {
-                nombre: "Multiplicación básica",
-                preguntas: [
-                    { texto: "¿Cuánto es 5 * 3?", respuestaCorrecta: "15" },
-                    { texto: "¿Cuánto es 4 * 2?", respuestaCorrecta: "8" }
-                ]
-            }
+          {
+            nombre: "Multiplicación y división básicas",
+            preguntas: [
+              { texto: "1.-¿Cuánto es 3 × 4?", respuestaCorrecta: "12" },
+              { texto: "2.-¿Cuánto es 6 × 5?", respuestaCorrecta: "30" },
+              { texto: "3.-¿Cuánto es 2 × 9?", respuestaCorrecta: "18" },
+              { texto: "4.-¿Cuánto es 8 × 3?", respuestaCorrecta: "24" },
+              { texto: "5.-¿Cuánto es 7 × 5?", respuestaCorrecta: "35" },
+              { texto: "6.-¿Cuánto es 20 ÷ 4?", respuestaCorrecta: "5" },
+              { texto: "7.-¿Cuánto es 18 ÷ 3?", respuestaCorrecta: "6" },
+              { texto: "8.-¿Cuánto es 12 ÷ 2?", respuestaCorrecta: "6" },
+              { texto: "9.-¿Cuánto es 24 ÷ 6?", respuestaCorrecta: "4" },
+              { texto: "10.-¿Cuanto es 70 ÷ 10?", respuestaCorrecta: "7" }
+            ]
+          },
+          { 
+            nombre: "Fracciones simples ",
+            preguntas: [
+              { texto: "1.-¿Cómo se llama la fracción que representa la mitad?", respuestaCorrecta: "1/2" },
+              { texto: "2.-Si partes una pizza en 4 partes iguales y comes una parte, ¿qué fracción de la pizza comiste?", respuestaCorrecta: "1/4" },
+              { texto: "3.-Si partes una sandia en 4 partes iguales y comes dos partes, ¿qué fracción de la pizza comiste?", respuestaCorrecta: "2/4" },
+              { texto: "4.-¿Qué fracción representa una tercera parte?", respuestaCorrecta: "1/3" },
+              { texto: "5.-Si tienes 3/4 de un pastel, ¿cuántas partes te faltan para completar el pastel entero?", respuestaCorrecta: "1/4" },
+              { texto: "6.-Si partes una naranja en 2 partes iguales y comes una, ¿qué fracción queda?", respuestaCorrecta: "1/2" },
+              { texto: "7.-¿Cuál es la fracción que representa un cuarto?", respuestaCorrecta: "1/4" },
+              { texto: "8.-Si tienes 2/4 de un chocolate, ¿cuántas partes te faltan para tener un chocolate entero?", respuestaCorrecta: "2/4" },
+              { texto: "9.-¿Qué fracción representa un tercio?", respuestaCorrecta: "1/3" },
+              { texto: "10.-¿Qué fracción representa un decimo?", respuestaCorrecta: "1/10" }
+            ]
+          },
+          { 
+            nombre: "Valor posicional de los números (unidades, decenas, centenas)",
+            preguntas: [
+              { texto: "1.-¿En el número 245, cuál es el valor del dígito 4?", respuestaCorrecta: "4 decenas" },
+              { texto: "2.-¿En el número 367, cuál es el valor del dígito 6?", respuestaCorrecta: "6 decenas" },
+              { texto: "3.-¿Cuál es el valor del dígito 2 en el número 582?", respuestaCorrecta: "2 unidades" },
+              { texto: "4.-¿En el número 721, cuál es el valor del dígito 7?", respuestaCorrecta: "7 centenas" },
+              { texto: "5.-¿Cuál es el valor de las decenas en el número 154?", respuestaCorrecta: "50" },
+              { texto: "6.-¿Cuál es el valor de las centenas en el número 439?", respuestaCorrecta: "4 centenas" },
+              { texto: "7.-¿Qué número tiene 5 centenas, 6 decenas y 7 unidades?", respuestaCorrecta: "567" },
+              { texto: "8.-¿En el número 809, cuál es el valor del dígito 9?", respuestaCorrecta: "9 unidades" },
+              { texto: "9.-¿Cuál es el valor del dígito 3 en el número 345?", respuestaCorrecta: "3 centenas" },
+              { texto: "10.-¿En el número 432, cuál es el valor de las unidades?", respuestaCorrecta: "2" },
+            ]
+          },
         ]
-    },
-    4: {
+      },
+      4: {
         nombre: "Cuarto Grado",
         temas: [
-            {
-                nombre: "División simple",
-                preguntas: [
-                    { texto: "¿Cuánto es 12 / 3?", respuestaCorrecta: "4" },
-                    { texto: "¿Cuánto es 9 / 1?", respuestaCorrecta: "9" }
-                ]
-            }
+          {
+            nombre: "Multiplicación de 2 y 3 dígitos",
+            preguntas: [
+              { texto: "1.-¿Cuánto es 23 × 5?", respuestaCorrecta: "115" },
+              { texto: "2.-¿Cuánto es 56 × 4?", respuestaCorrecta: "224" },
+              { texto: "3.-¿Cuánto es 71 × 6?", respuestaCorrecta: "420" },
+              { texto: "4.-¿Cuánto es 83 × 7?", respuestaCorrecta: "581" },
+              { texto: "5.-¿Cuánto es 34 × 9?", respuestaCorrecta: "306" },
+              { texto: "6.-¿Cuánto es 123 × 3?", respuestaCorrecta: "369" },
+              { texto: "7.-¿Cuánto es 235 × 4?", respuestaCorrecta: "940" },
+              { texto: "8.-¿Cuánto es 312 × 5?", respuestaCorrecta: "1560" },
+              { texto: "9.-¿Cuánto es 142 × 7?", respuestaCorrecta: "994" },
+              { texto: "10.-¿Cuánto es 427 × 3?", respuestaCorrecta: "1281" }
+            ]
+          },
+          { 
+            nombre: "División con y sin residuo",
+            preguntas: [
+              { texto: "1.-¿Cuánto es 20 ÷ 5?", respuestaCorrecta: "5" },
+              { texto: "2.-¿Cuánto es 36 ÷ 6?", respuestaCorrecta: "6" },
+              { texto: "3.-¿Cuánto es 49 ÷ 7?", respuestaCorrecta: "7" },
+              { texto: "4.-¿Cuánto es 24 ÷ 4?", respuestaCorrecta: "4" },
+              { texto: "5.-¿Cuánto es 120 ÷ 8?", respuestaCorrecta: "15" },
+              { texto: "6.-¿Cuánto es 64 ÷ 8?", respuestaCorrecta: "8" },
+              { texto: "7.-¿Cuánto es 30 ÷ 5?", respuestaCorrecta: "6" },
+              { texto: "8.-¿Cuánto es 63 ÷ 9?", respuestaCorrecta: "7" },
+              { texto: "9.-¿Cuánto es 80 ÷ 10?", respuestaCorrecta: "8" },
+              { texto: "10.-¿Cuánto es 100 ÷ 5?", respuestaCorrecta: "20" }
+            ]
+          },
+          { 
+            nombre: "Ángulos básicos (rectos, agudos, obtusos)",
+            preguntas: [
+              { texto: "1.-¿Cuánto es 20 ÷ 5?", respuestaCorrecta: "5" },
+              { texto: "2.-¿Cuánto es 36 ÷ 6?", respuestaCorrecta: "6" },
+              { texto: "3.-¿Cuánto es 49 ÷ 7?", respuestaCorrecta: "7" },
+              { texto: "4.-¿Cuánto es 24 ÷ 4?", respuestaCorrecta: "4" },
+              { texto: "5.-¿Cuánto es 120 ÷ 8?", respuestaCorrecta: "15" },
+              { texto: "6.-¿Cuánto es 64 ÷ 8?", respuestaCorrecta: "8" },
+              { texto: "7.-¿Cuánto es 30 ÷ 5?", respuestaCorrecta: "6" },
+              { texto: "8.-¿Cuánto es 63 ÷ 9?", respuestaCorrecta: "7" },
+              { texto: "9.-¿Cuánto es 80 ÷ 10?", respuestaCorrecta: "8" },
+              { texto: "10.-¿Cuánto es 100 ÷ 5?", respuestaCorrecta: "20" }
+            ]
+          },
         ]
-    },
+      },
     5: {
         nombre: "Quinto Grado",
         temas: [
-            {
-                nombre: "Fracciones básicas",
-                preguntas: [
-                    { texto: "¿Cuál es la mitad de 8?", respuestaCorrecta: "4" },
-                    { texto: "¿Cuál es la cuarta parte de 16?", respuestaCorrecta: "4" }
-                ]
-            }
+          {
+            nombre: "Fracciones equivalentes y operaciones con fracciones",
+            preguntas: [
+              { texto: "1.-¿Cuánto es 23 × 5?", respuestaCorrecta: "115" },
+              { texto: "2.-¿Cuánto es 56 × 4?", respuestaCorrecta: "224" },
+              { texto: "3.-¿Cuánto es 71 × 6?", respuestaCorrecta: "420" },
+              { texto: "4.-¿Cuánto es 83 × 7?", respuestaCorrecta: "581" },
+              { texto: "5.-¿Cuánto es 34 × 9?", respuestaCorrecta: "306" },
+              { texto: "6.-¿Cuánto es 123 × 3?", respuestaCorrecta: "369" },
+              { texto: "7.-¿Cuánto es 235 × 4?", respuestaCorrecta: "940" },
+              { texto: "8.-¿Cuánto es 312 × 5?", respuestaCorrecta: "1560" },
+              { texto: "9.-¿Cuánto es 142 × 7?", respuestaCorrecta: "994" },
+              { texto: "10.-¿Cuánto es 427 × 3?", respuestaCorrecta: "1281" }
+            ]
+          },
+          { 
+            nombre: "Números decimales (lectura, escritura, suma y resta)",
+            preguntas: [
+              { texto: "1.-¿Cuánto es 20 ÷ 5?", respuestaCorrecta: "5" },
+              { texto: "2.-¿Cuánto es 36 ÷ 6?", respuestaCorrecta: "6" },
+              { texto: "3.-¿Cuánto es 49 ÷ 7?", respuestaCorrecta: "7" },
+              { texto: "4.-¿Cuánto es 24 ÷ 4?", respuestaCorrecta: "4" },
+              { texto: "5.-¿Cuánto es 120 ÷ 8?", respuestaCorrecta: "15" },
+              { texto: "6.-¿Cuánto es 64 ÷ 8?", respuestaCorrecta: "8" },
+              { texto: "7.-¿Cuánto es 30 ÷ 5?", respuestaCorrecta: "6" },
+              { texto: "8.-¿Cuánto es 63 ÷ 9?", respuestaCorrecta: "7" },
+              { texto: "9.-¿Cuánto es 80 ÷ 10?", respuestaCorrecta: "8" },
+              { texto: "10.-¿Cuánto es 100 ÷ 5?", respuestaCorrecta: "20" }
+            ]
+          },
+          { 
+            nombre: "Perímetro y área de figuras geométricas",
+            preguntas: [
+              { texto: "1.-¿Cuánto es 20 ÷ 5?", respuestaCorrecta: "5" },
+              { texto: "2.-¿Cuánto es 36 ÷ 6?", respuestaCorrecta: "6" },
+              { texto: "3.-¿Cuánto es 49 ÷ 7?", respuestaCorrecta: "7" },
+              { texto: "4.-¿Cuánto es 24 ÷ 4?", respuestaCorrecta: "4" },
+              { texto: "5.-¿Cuánto es 120 ÷ 8?", respuestaCorrecta: "15" },
+              { texto: "6.-¿Cuánto es 64 ÷ 8?", respuestaCorrecta: "8" },
+              { texto: "7.-¿Cuánto es 30 ÷ 5?", respuestaCorrecta: "6" },
+              { texto: "8.-¿Cuánto es 63 ÷ 9?", respuestaCorrecta: "7" },
+              { texto: "9.-¿Cuánto es 80 ÷ 10?", respuestaCorrecta: "8" },
+              { texto: "10.-¿Cuánto es 100 ÷ 5?", respuestaCorrecta: "20" }
+            ]
+          },
         ]
-    },
+      },
     6: {
         nombre: "Sexto Grado",
         temas: [
             {
-                nombre: "Decimales",
+                nombre: "Porcentajes y su aplicación en problemas",
                 preguntas: [
                     { texto: "¿Cuánto es 0.5 + 0.5?", respuestaCorrecta: "1" },
                     { texto: "¿Cuánto es 1.2 + 0.8?", respuestaCorrecta: "2" }
                 ]
-            }
+            },
+            {
+                nombre: "Proporciones y razones",
+                preguntas: [
+                    { texto: "¿Cuánto es 0.5 + 0.5?", respuestaCorrecta: "1" },
+                    { texto: "¿Cuánto es 1.2 + 0.8?", respuestaCorrecta: "2" }
+                ]
+            },
+            {
+                nombre: "Proporciones y razones",
+                preguntas: [
+                    { texto: "¿Cuánto es 0.5 + 0.5?", respuestaCorrecta: "1" },
+                    { texto: "¿Cuánto es 1.2 + 0.8?", respuestaCorrecta: "2" }
+                ]
+            },
         ]
     }
 };

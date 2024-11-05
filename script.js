@@ -205,46 +205,46 @@ const temasPorGrado = {
           {
             nombre: "Fracciones equivalentes y operaciones con fracciones",
             preguntas: [
-              { texto: "1.-¿Cuánto es 23 × 5?", respuestaCorrecta: "115" },
-              { texto: "2.-¿Cuánto es 56 × 4?", respuestaCorrecta: "224" },
-              { texto: "3.-¿Cuánto es 71 × 6?", respuestaCorrecta: "420" },
-              { texto: "4.-¿Cuánto es 83 × 7?", respuestaCorrecta: "581" },
-              { texto: "5.-¿Cuánto es 34 × 9?", respuestaCorrecta: "306" },
-              { texto: "6.-¿Cuánto es 123 × 3?", respuestaCorrecta: "369" },
-              { texto: "7.-¿Cuánto es 235 × 4?", respuestaCorrecta: "940" },
-              { texto: "8.-¿Cuánto es 312 × 5?", respuestaCorrecta: "1560" },
-              { texto: "9.-¿Cuánto es 142 × 7?", respuestaCorrecta: "994" },
-              { texto: "10.-¿Cuánto es 427 × 3?", respuestaCorrecta: "1281" }
+              { texto: "1.-¿Cuál es una fracción equivalente a 1/2?", respuestaCorrecta: "2/4" },
+              { texto: "2.-¿Cuál es una fracción equivalente a 3/5?", respuestaCorrecta: "6/10" },
+              { texto: "3.-¿Cuál es una fracción equivalente a 4/6?", respuestaCorrecta: "4/12" },
+              { texto: "4.-Cuál de estas fracciones es equivalente a 7/9", respuestaCorrecta: "14/18" },
+              { texto: "5.-Cuál de estas fracciones es equivalente a 9/11", respuestaCorrecta: "18/22" },
+              { texto: "6.-¿Cuánto es 1/4 + 1/4 ?", respuestaCorrecta: "2/4" },
+              { texto: "7.-¿Cuánto es 3/8 + 2/8 ?", respuestaCorrecta: "5/8" },
+              { texto: "8.-¿Cuánto es 5/6 - 1/6 ?", respuestaCorrecta: "2/3" },
+              { texto: "9.-¿Cuánto es 7/10 - 2/10 ?", respuestaCorrecta: "1/2" },
+              { texto: "10.-¿Cuánto es 6/10 + 2/10 ?", respuestaCorrecta: "8/10" }
             ]
           },
           { 
             nombre: "Números decimales (lectura, escritura, suma y resta)",
             preguntas: [
-              { texto: "1.-¿Cuánto es 20 ÷ 5?", respuestaCorrecta: "5" },
-              { texto: "2.-¿Cuánto es 36 ÷ 6?", respuestaCorrecta: "6" },
-              { texto: "3.-¿Cuánto es 49 ÷ 7?", respuestaCorrecta: "7" },
-              { texto: "4.-¿Cuánto es 24 ÷ 4?", respuestaCorrecta: "4" },
-              { texto: "5.-¿Cuánto es 120 ÷ 8?", respuestaCorrecta: "15" },
-              { texto: "6.-¿Cuánto es 64 ÷ 8?", respuestaCorrecta: "8" },
-              { texto: "7.-¿Cuánto es 30 ÷ 5?", respuestaCorrecta: "6" },
-              { texto: "8.-¿Cuánto es 63 ÷ 9?", respuestaCorrecta: "7" },
-              { texto: "9.-¿Cuánto es 80 ÷ 10?", respuestaCorrecta: "8" },
-              { texto: "10.-¿Cuánto es 100 ÷ 5?", respuestaCorrecta: "20" }
+              { texto: "1.-¿Cómo se lee el número 3.45?", respuestaCorrecta: " Tres coma cuarenta y cinco" },
+              { texto: "2.-¿Cómo se escribe el número dos coma setenta y cinco en cifras?", respuestaCorrecta: "2.75" },
+              { texto: "3.-¿Cuál es la forma decimal de cuatro unidades y quince centésimas?", respuestaCorrecta: "4.15 " },
+              { texto: "4.-¿Cómo se escribe el número siete coma treinta y dos en cifras?", respuestaCorrecta: "7.32" },
+              { texto: "5.-¿Cómo se lee el número 0.06?", respuestaCorrecta: "Cero coma cero seis" },
+              { texto: "6.-¿Cuánto es 2.3 + 1.4?", respuestaCorrecta: " 3.7" },
+              { texto: "7.-¿Cuánto es 5.75 + 2.25?", respuestaCorrecta: " 8.0" },
+              { texto: "8.-¿Cuánto es 4.9 + 3.1?", respuestaCorrecta: "8.0" },
+              { texto: "9.-¿Cuánto es 7.5 - 2.3?", respuestaCorrecta: "5.2" },
+              { texto: "10.-¿Cuánto es 10.6 - 4.4?", respuestaCorrecta: "6.2 " }
             ]
           },
           { 
             nombre: "Perímetro y área de figuras geométricas",
             preguntas: [
-              { texto: "1.-¿Cuánto es 20 ÷ 5?", respuestaCorrecta: "5" },
-              { texto: "2.-¿Cuánto es 36 ÷ 6?", respuestaCorrecta: "6" },
-              { texto: "3.-¿Cuánto es 49 ÷ 7?", respuestaCorrecta: "7" },
-              { texto: "4.-¿Cuánto es 24 ÷ 4?", respuestaCorrecta: "4" },
-              { texto: "5.-¿Cuánto es 120 ÷ 8?", respuestaCorrecta: "15" },
-              { texto: "6.-¿Cuánto es 64 ÷ 8?", respuestaCorrecta: "8" },
-              { texto: "7.-¿Cuánto es 30 ÷ 5?", respuestaCorrecta: "6" },
-              { texto: "8.-¿Cuánto es 63 ÷ 9?", respuestaCorrecta: "7" },
-              { texto: "9.-¿Cuánto es 80 ÷ 10?", respuestaCorrecta: "8" },
-              { texto: "10.-¿Cuánto es 100 ÷ 5?", respuestaCorrecta: "20" }
+              { texto: "1.-Un cuadrado tiene lados de 4 cm cada uno. ¿Cuál es el perímetro del cuadrado?", respuestaCorrecta: "16 cm " },
+              { texto: "2.-Un rectángulo tiene una longitud de 6 cm y un ancho de 3 cm. ¿Cuál es el perímetro del rectángulo?", respuestaCorrecta: "18 cm" },
+              { texto: "3.-Un triángulo equilátero tiene lados de 5 cm cada uno. ¿Cuál es el perímetro del triángulo?", respuestaCorrecta: "15 cm" },
+              { texto: "4.-Un pentágono regular tiene lados de 7 cm cada uno. ¿Cuál es el perímetro del pentágono??", respuestaCorrecta: "35 cm " },
+              { texto: "5.-Un hexágono regular tiene lados de 4 cm cada uno. ¿Cuál es el perímetro del hexágono?", respuestaCorrecta: "24 cm" },
+              { texto: "6.-Un cuadrado tiene lados de 5 cm cada uno. ¿Cuál es el área del cuadrado?", respuestaCorrecta: "25 cm²" },
+              { texto: "7.-Un rectángulo tiene una longitud de 8 cm y un ancho de 3 cm. ¿Cuál es el área del rectángulo?", respuestaCorrecta: "24 cm²" },
+              { texto: "8.-Un triángulo tiene una base de 6 cm y una altura de 4 cm. ¿Cuál es el área del triángulo?", respuestaCorrecta: "12 cm²" },
+              { texto: "Un círculo tiene un radio de 3 cm. ¿Cuál es el área del círculo? (Usa 𝜋≈3.14π≈3.14)", respuestaCorrecta: "28.26 cm² " },
+              { texto: "Un triángulo rectángulo tiene una base de 5 cm y una altura de 10 cm. ¿Cuál es el área del triángulo?", respuestaCorrecta: " 25 cm² " }
             ]
           },
         ]
@@ -255,22 +255,46 @@ const temasPorGrado = {
             {
                 nombre: "Porcentajes y su aplicación en problemas",
                 preguntas: [
-                    { texto: "¿Cuánto es 0.5 + 0.5?", respuestaCorrecta: "1" },
-                    { texto: "¿Cuánto es 1.2 + 0.8?", respuestaCorrecta: "2" }
+                  { texto: "1.-En una clase de 40 estudiantes, el 25% obtuvo una calificación de 10 en matemáticas. ¿Cuántos estudiantes obtuvieron la calificación de 10?", respuestaCorrecta: "12" },
+                  { texto: "2.-Un televisor cuesta $800 y está en oferta con un descuento del 15%. ¿Cuánto pagarás después del descuento?", respuestaCorrecta: "$680" },
+                  { texto: "3.-En un equipo de fútbol, el 40% de los jugadores son defensas. Si el equipo tiene 20 jugadores, ¿cuántos son defensas?", respuestaCorrecta: "10" },
+                  { texto: "4.-Un vestido cuesta $150 y se aplicó un aumento del 10%. ¿Cuál es el nuevo precio del vestido?", respuestaCorrecta: "$165" },
+                  { texto: "5.-Marta ganó $1,200 en un mes y ahorró el 20% de su salario. ¿Cuánto dinero ahorró Marta?", respuestaCorrecta: "$240" },
+                  { texto: "6.-En una encuesta, el 70% de las personas respondió sí. Si participaron 150 personas, ¿cuántas personas respondieron sí?", respuestaCorrecta: "105" },
+                  { texto: "7.-Un artículo está marcado con un precio de $500 y tiene un descuento del 25%. ¿Cuál es el precio después del descuento?", respuestaCorrecta: "$375" },
+                  { texto: "8.-Si en una clase el 60% de los 30 estudiantes son niñas, ¿cuántas niñas hay en la clase?", respuestaCorrecta: "18" },
+                  { texto: "9.-Un teléfono costaba $1,200 y subió su precio en un 5%. ¿Cuál es el nuevo precio del teléfono?", respuestaCorrecta: "$1,260" },
+                  { texto: "10.-Un examen tiene 50 preguntas y Juan respondió correctamente el 80%. ¿Cuántas preguntas respondió bien?", respuestaCorrecta: "40" }
                 ]
             },
             {
                 nombre: "Proporciones y razones",
                 preguntas: [
-                    { texto: "¿Cuánto es 0.5 + 0.5?", respuestaCorrecta: "1" },
-                    { texto: "¿Cuánto es 1.2 + 0.8?", respuestaCorrecta: "2" }
+                  { texto: "1.-La razón entre gatos y perros en un refugio es de 3:2. Si hay 15 gatos, ¿cuántos perros hay?", respuestaCorrecta: "10" },
+                  { texto: "2.-En una receta de limonada, la proporción de agua a jugo de limón es 4:1. Si se utilizan 12 tazas de agua, ¿cuántas tazas de jugo de limón se necesitan?", respuestaCorrecta: "3" },
+                  { texto: "3.-La razón de estudiantes de sexto a quinto grado en una escuela es 5:3. Si hay 30 estudiantes de sexto grado, ¿cuántos estudiantes hay de quinto grado?", respuestaCorrecta: "18" },
+                  { texto: "4.-La proporción de niños a niñas en un parque es de 2:5. Si hay 10 niños, ¿cuántas niñas hay?", respuestaCorrecta: "25" },
+                  { texto: "5.-Un mapa tiene una escala de 1:100. Si la distancia real entre dos ciudades es de 200 km, ¿cuál sería la distancia en el mapa?", respuestaCorrecta: "2 cm" },
+                  { texto: "6.-La razón entre la cantidad de refresco y jugo en una mezcla es de 3:7. Si la mezcla tiene 21 tazas de jugo, ¿cuántas tazas de refresco se usaron?", respuestaCorrecta: "9" },
+                  { texto: "7.-En una clase, la proporción de estudiantes que prefieren matemáticas frente a los que prefieren ciencias es de 4:3. Si 12 estudiantes prefieren matemáticas, ¿cuántos prefieren ciencias?", respuestaCorrecta: " 8" },
+                  { texto: "8.-En una receta, la proporción de azúcar a harina es de 2:5. Si se utilizan 10 tazas de harina, ¿cuántas tazas de azúcar se necesitan?", respuestaCorrecta: "4" },
+                  { texto: "9.-La razón de adultos a niños en una fiesta es de 3:2. Si hay 24 adultos, ¿cuántos niños hay en la fiesta?", respuestaCorrecta: "16" },
+                  { texto: "10.-En una mezcla de pintura, la proporción de color azul a color rojo es 4:1. Si se usan 8 litros de color azul, ¿cuántos litros de color rojo se necesitan?", respuestaCorrecta: "2 " }
                 ]
             },
             {
-                nombre: "Proporciones y razones",
+                nombre: "Ecuaciones y desigualdades simples",
                 preguntas: [
-                    { texto: "¿Cuánto es 0.5 + 0.5?", respuestaCorrecta: "1" },
-                    { texto: "¿Cuánto es 1.2 + 0.8?", respuestaCorrecta: "2" }
+                  { texto: "1.-Resuelve para x:  𝑥+5=12 ", respuestaCorrecta: "x=7" },
+                  { texto: "2.-Resuelve para y:  y−8=15", respuestaCorrecta: "y=23" },
+                  { texto: "3.-Resuelve para z:  3𝑧=21", respuestaCorrecta: "z=7 " },
+                  { texto: "4.-Resuelve para a: 4𝑎=16", respuestaCorrecta: "a=4" },
+                  { texto: "5.-esuelve para b:  𝑏/5=10", respuestaCorrecta: "b=50" },
+                  { texto: "6.-Resuelve la desigualdad:  x+3>10", respuestaCorrecta: "x>7" },
+                  { texto: "7.-Resuelve la desigualdad:  y−4<9", respuestaCorrecta: "y<13" },
+                  { texto: "8.-Resuelve la desigualdad:  2z≤18", respuestaCorrecta: "z≤9" },
+                  { texto: "9.-Resuelve la desigualdad:  5a≥25", respuestaCorrecta: "a≥5" },
+                  { texto: "10.-Resuelve la desigualdad:  b/4<6", respuestaCorrecta: "b<24 " }
                 ]
             },
         ]
